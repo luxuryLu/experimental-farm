@@ -1,0 +1,18 @@
+/**
+* only work in VSCode without webpack compilation side effect
+* see https://code.visualstudio.com/docs/languages/jsconfig for mannual book
+*/
+{
+    "compilerOptions": {
+        /** remove experimentalDecorators warning in VSCode */
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        /** 
+        *   map alias path to the real path in VSCode for going to definition feature(ctrl + click or f12)
+        *   inherit from getBuildConfig.js
+        */
+        "paths": {
+
+        }
+    }
+}

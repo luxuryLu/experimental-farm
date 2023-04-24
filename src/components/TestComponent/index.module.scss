@@ -1,0 +1,10 @@
+$text-test-color: #151516;
+
+.contanier {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-test-color;
+}
